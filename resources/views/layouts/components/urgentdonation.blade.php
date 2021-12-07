@@ -5,7 +5,7 @@
                         <div class="sec-title text-center w-100">
                             <div class="sec-title-inner d-inline-block">
                                 <i class="thm-clr flaticon-rub-el-hizb"></i>
-                                <h2 class="mb-0">Islamic Scholars</h2>
+                                <h2 class="mb-0">{{ __('vocab.new_request') }}</h2>
                                 <p class="mb-0">Adipiscing elit duis volutpat ligula nulla dapibus.</p>
                             </div>
                         </div><!-- Sec Title -->
@@ -78,7 +78,7 @@
                             </div>
                         </div><!-- Team Wrap -->
                         <div class="view-more mt-05 d-inline-block text-center w-100">
-                            <a class="thm-btn thm-bg" href="scholar-style1.html" title="">More Scholars<span></span><span></span><span></span><span></span></a>
+                            <a class="thm-btn thm-bg" href="scholar-style1.html" title="">{{ __('vocab.more_requests') }}<span></span><span></span><span></span><span></span></a>
                         </div><!-- View More -->
                     </div>
                 </div>

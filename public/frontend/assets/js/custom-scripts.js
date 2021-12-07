@@ -26,7 +26,7 @@ $(document).ready(function () {
       offset:       0,          // default
       mobile:       true,       // default
       live:         true        // default
-    }); 
+    });
 
     wow.init();
   }
@@ -62,7 +62,7 @@ $(document).ready(function () {
   //===== Touchspin =====//
   if ($('.qty').length > 0) {
     $('.qty').TouchSpin();
-  } 
+  }
 
   //===== Sticky Sidebar =====//
   if(width > 991) {
@@ -95,7 +95,7 @@ $(document).ready(function () {
       //volume: 10,
       //autoPlay: true,
       //loop: true,
-      
+
     });
   }
 
@@ -227,9 +227,9 @@ $(document).ready(function () {
       });
     });
   }
-  
+
   if(width < 851) {
-    
+
     //===== Responsive Carousel =====//
     if ($.isFunction($.fn.slick)) {
       $('.res-caro').slick({
@@ -319,54 +319,66 @@ $(document).ready(function () {
 
     //=== Featured Area Carousel ===//
     $('.feat-caro').slick({
-      arrows: false,
-      initialSlide: 0,
-      infinite: true,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      fade: true,
-      autoplay: false,
-      autoplaySpeed: 6000,
-      cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
-      speed: 1500,
-      draggable: true,
-      dots: true,
-      pauseOnDotsHover: true,
-      pauseOnFocus: false,
-      pauseOnHover: false,
-      prevArrow:"<button type='button' class='slick-prev'><i class='fas fa-chevron-right'></i></button>",
-      nextArrow:"<button type='button' class='slick-next'><i class='fas fa-chevron-left'></i></button>",
-      responsive: [
-      {
-        breakpoint: 981,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 851,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 770,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 576,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-      ]
-    });
+        dots: true,
+        arrows: false,
+        infinite: true,
+        speed: 2000,
+        slidesToShow: 1,
+        loop: true,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        pauseOnHover: false,
+        });
+    // $('.feat-caro').slick({
+    //   arrows: false,
+    //   initialSlide: 0,
+    //   infinite: true,
+    //   slidesToShow: 1,
+    //   slidesToScroll: 1,
+    //   fade: true,
+    //   autoplay: false,
+    //   autoplaySpeed: 6000,
+    //   cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
+    //   speed: 1500,
+    //   draggable: true,
+    //   dots: true,
+    //   pauseOnDotsHover: true,
+    //   pauseOnFocus: false,
+    //   pauseOnHover: false,
+    //   prevArrow:"<button type='button' class='slick-prev'><i class='fas fa-chevron-right'></i></button>",
+    //   nextArrow:"<button type='button' class='slick-next'><i class='fas fa-chevron-left'></i></button>",
+    //   responsive: [
+    //   {
+    //     breakpoint: 981,
+    //     settings: {
+    //       slidesToShow: 1,
+    //       slidesToScroll: 1
+    //     }
+    //   },
+    //   {
+    //     breakpoint: 851,
+    //     settings: {
+    //       slidesToShow: 1,
+    //       slidesToScroll: 1
+    //     }
+    //   },
+    //   {
+    //     breakpoint: 770,
+    //     settings: {
+    //       slidesToShow: 1,
+    //       slidesToScroll: 1
+    //     }
+    //   },
+    //   {
+    //     breakpoint: 576,
+    //     settings: {
+    //       slidesToShow: 1,
+    //       slidesToScroll: 1
+    //     }
+    //   }
+    //   ]
+    // });
 
     //=== Featured Area Carousel 2 ===//
     $('.feat-caro2').slick({
@@ -800,7 +812,7 @@ $(document).ready(function () {
 //===== Window Load =====//
 $(window).on('load',function () {
   'use strict';
-  
+
   jQuery("#preloader").fadeOut(300);
 
 });

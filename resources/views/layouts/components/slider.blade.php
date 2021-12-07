@@ -8,7 +8,7 @@
                                     <div class="feat-cap d-inline-block">
                                         <i class="d-inline-block flaticon-rub-el-hizb thm-clr"></i>
                                         <h2 class="mb-0">{{ __('vocab.nothing_is_impossible_with_allah') }}</h2>
-                                        <p class="mb-0">Consectetur adipiscing elit duis volutpat ligula nulla dapibus.</p>
+                                        <p class="mb-0">{{ __('vocab.charity_hadees_three') }}.</p>
                                         <a class="thm-btn thm-bg" href="about.html" title="">{{ __('vocab.make_donation') }}<span></span><span></span><span></span><span></span></a>
                                     </div>
                                 </div>

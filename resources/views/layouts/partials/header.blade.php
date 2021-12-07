@@ -63,10 +63,10 @@
                         @endguest
                         <li class="menu-item-has-children"><a href="javascript:void(0);" title="">{{ Config::get('languages')[App::getLocale()] }}</a>
                                         <ul class="mb-0 list-unstyled">
-                                             @foreach (Config::get('languages') as $lang => $language)
+                                            @foreach (Config::get('languages') as $lang => $language)
                                                @if ($lang != App::getLocale())
-                                            <li><a href="{{ route('lang.switch', $lang) }}" title="">{{$language}}</a></li>
-                                           @endif
+                                                    <li><a href="{{ route('lang.switch', $lang) }}" title="">{{__($language)}}</a></li>
+                                               @endif
                                             @endforeach
                                         </ul>
                                     </li>

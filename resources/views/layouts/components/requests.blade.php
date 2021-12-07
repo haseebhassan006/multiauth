@@ -5,8 +5,8 @@
                         <div class="sec-title text-center w-100">
                             <div class="sec-title-inner d-inline-block">
                                 <i class="thm-clr flaticon-rub-el-hizb"></i>
-                                <h2 class="mb-0">Services We Offer</h2>
-                                <p class="mb-0">Adipiscing elit duis volutpat ligula nulla dapibus.</p>
+                                <h2 class="mb-0">{{ __('vocab.services_requests') }}</h2>
+                                <p class="mb-0">{{ __('') }}.</p>
                             </div>
                         </div><!-- Sec Title -->
                         <div class="serv-wrap wide-sec">
